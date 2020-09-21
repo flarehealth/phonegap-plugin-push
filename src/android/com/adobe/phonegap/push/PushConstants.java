@@ -93,6 +93,7 @@ public interface PushConstants {
   public static final String CHANNEL_ID = "id";
   public static final String CHANNEL_DESCRIPTION = "description";
   public static final String CHANNEL_IMPORTANCE = "importance";
+  public static final String CHANNEL_NAME = "name";
   public static final String CHANNEL_LIGHT_COLOR = "lightColor";
   public static final String CHANNEL_VIBRATION = "vibration";
   public static final String ANDROID_CHANNEL_ID = "android_channel_id";
