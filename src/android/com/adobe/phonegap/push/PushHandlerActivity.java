@@ -33,7 +33,7 @@ public class PushHandlerActivity extends Activity implements PushConstants {
         String callback = getIntent().getExtras().getString("callback");
         Log.d(LOG_TAG, "callback = " + callback);
         boolean foreground = getIntent().getExtras().getBoolean("foreground", true);
-        boolean startOnBackground = getIntent().getExtras().getBoolean(START_IN_BACKGROUND, false);
+        boolean startOnBackground = getIntent().getExtras().getBoolean(START_IN_BACKGROUND, true);
         boolean dismissed = getIntent().getExtras().getBoolean(DISMISSED, false);
         Log.d(LOG_TAG, "dismissed = " + dismissed);
 
